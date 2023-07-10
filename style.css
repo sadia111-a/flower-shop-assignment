@@ -145,9 +145,9 @@ body {
     gap: 200px;
     text-align: center;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-width: 1922px;
-height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
 }
 
 .hot-heading {
@@ -170,9 +170,41 @@ height: 620px;
     height: 60px;
     width: 594px;
 }
-.rose{
+
+.rose {
     margin-top: 100px;
     margin-bottom: 100px;
     /* margin-right: 429px; */
-    
+
+}
+
+/* instra part starts here */
+.instra {
+    margin-top: 128px;
+}
+
+.instra-head {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.instra-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    height: 60px;
+    margin: auto;
+}
+.four-flower{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 128px;
 }
