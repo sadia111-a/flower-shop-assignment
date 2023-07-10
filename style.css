@@ -105,19 +105,7 @@ body {
     margin: 110px 78px 0px 76px;
 }
 
-/* .flower-heading {
-    color: #272727;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration-line: underline;
-} */
-/* .flower-write{
-    margin-left: 381px;
-}
-.flower-page{
-    margin-left: 381px;
-} */
+
 .flower-container {
     display: flex;
     gap: 24px;
@@ -131,4 +119,19 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/* optional part starts here */
+.optional-container{
+    width: 1440px;
+height: 320px;
+margin-top: 128px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+margin-left: 240px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+margin-bottom: 128px;
+
 }
