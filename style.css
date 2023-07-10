@@ -211,7 +211,7 @@ body {
 }
 
 .background-flower-container {
-  padding: 20px;
+    padding: 20px;
     text-align: center;
     border-radius: 8px;
     /* background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat; */
@@ -220,7 +220,7 @@ body {
     margin: auto;
     background-image: url('Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
-    
+
 }
 
 .bg-pera {
@@ -231,11 +231,13 @@ body {
     margin-bottom: 48px;
     margin-top: 10px;
 }
-.bg-property{
+
+.bg-property {
     margin-top: 122px;
     align-items: center;
     text-align: center;
 }
+
 .bg-head {
     color: #272727;
     text-align: center;
@@ -243,8 +245,43 @@ body {
     font-weight: 800;
     margin-top: 122px;
 }
-.input-email{
+
+.input-email {
     border-radius: 8px;
-background: #FFF;
-padding: 23px 513px 22px 22px;
+    background: #FFF;
+    padding: 23px 513px 22px 22px;
+}
+
+/* footer part starts here */
+.footer-container {
+    margin-top: 122px;
+    background: #111010;
+    text-align: center;
+    color: white;
+    width: 1922px;
+    height: 449px;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-head {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 24px;
+}
+
+.color-foot {
+    color: white;
+}
+
+.footer-pera {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 60px;
+    width: 625px;
+    margin: auto;
 }
