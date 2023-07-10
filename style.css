@@ -32,6 +32,9 @@ body {
     font-size: 80px;
     font-weight: 800;
     margin-top: 197px;
+    
+    height: 288px;
+    width: 708px;
 }
 
 .banner-pera {
@@ -53,8 +56,11 @@ body {
 }
 
 .banner-img {
+    width: 635px;
+height: 800px;
     margin-top: 50px;
     margin-right: 240px;
+    margin-bottom: 0px;
 }
 
 .flower-img {
