@@ -200,11 +200,51 @@ body {
     height: 60px;
     margin: auto;
 }
-.four-flower{
+
+.four-flower {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
     margin-top: 48px;
     margin-bottom: 128px;
+}
+
+.background-flower-container {
+  padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    /* background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat; */
+    width: 1440px;
+    height: 449px;
+    margin: auto;
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    
+}
+
+.bg-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    margin-top: 10px;
+}
+.bg-property{
+    margin-top: 122px;
+    align-items: center;
+    text-align: center;
+}
+.bg-head {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 122px;
+}
+.input-email{
+    border-radius: 8px;
+background: #FFF;
+padding: 23px 513px 22px 22px;
 }
