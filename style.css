@@ -10,6 +10,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* banner part start here */
 .banner-container {
     display: flex;
@@ -18,19 +19,21 @@ body {
     /* text-align: center; */
     background: rgba(229, 84, 115, 0.10);
     gap: 30px;
-    height:850px ;
-    width:1920px ;
+    height: 850px;
+    width: 1920px;
 }
 
 .banner-description {
     margin-left: 230px;
 }
+
 .banner-heading {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     margin-top: 197px;
-    }
+}
+
 .banner-pera {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -48,11 +51,84 @@ body {
     padding: 20px 43px;
     border: 0px;
 }
-.banner-img{
-    margin-top: 50px ;
+
+.banner-img {
+    margin-top: 50px;
     margin-right: 240px;
 }
-.flower-img{
-    height:800px ;
+
+.flower-img {
+    height: 800px;
     width: 635px;
+}
+
+/* main part starts from here */
+.first-section-container {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.first-section-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 178px;
+    font-weight: 800;
+
+}
+
+.first-section-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    height: 60px;
+    width: 594px;
+    margin-left: 663px;
+    margin-bottom: 48px;
+}
+
+/* flower box */
+.flower-box {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img {
+    width: 310px;
+    height: 428px;
+    margin: 110px 78px 0px 76px;
+}
+
+/* .flower-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+} */
+/* .flower-write{
+    margin-left: 381px;
+}
+.flower-page{
+    margin-left: 381px;
+} */
+.flower-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.flower-write {
+    margin-top: 32px;
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
