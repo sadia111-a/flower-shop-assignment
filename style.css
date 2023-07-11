@@ -23,6 +23,19 @@ body {
    font-weight: 800;
    background-color: grey;
 }
+.my-section-container{
+    height: 100vh;
+   text-align: center;
+   padding: 150px;
+   background-image: url('my-background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: auto;
+}
+.my-section-heading{
+    margin-bottom: 50px;
+    font-size: 80px;
+}
 
 /* banner part start here */
 .banner-container {
