@@ -10,29 +10,32 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* nav part starts here */
-.nav-list{
+.nav-list {
     text-align: center;
-   display: flex;
-   justify-content: center;
-   list-style: none;
-   gap: 50px;
-   align-items: center;
-   padding: 50px;
-   font-size: large;
-   font-weight: 800;
-   background-color: grey;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    padding: 50px;
+    font-size: large;
+    font-weight: 800;
+    background-color: grey;
 }
-.my-section-container{
+
+.my-section-container {
     height: 100vh;
-   text-align: center;
-   padding: 150px;
-   background-image: url('my-background.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin: auto;
+    text-align: center;
+    padding: 150px;
+    background-image: url('my-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
 }
-.my-section-heading{
+
+.my-section-heading {
     margin-bottom: 50px;
     font-size: 80px;
 }
@@ -58,7 +61,7 @@ body {
     font-size: 80px;
     font-weight: 800;
     margin-top: 197px;
-    
+
     height: 288px;
     width: 708px;
 }
@@ -83,7 +86,7 @@ body {
 
 .banner-img {
     width: 635px;
-height: 800px;
+    height: 800px;
     margin-top: 50px;
     margin-right: 240px;
     margin-bottom: 0px;
@@ -129,6 +132,16 @@ height: 800px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+}
+
+.box2 {
+
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.box3 {
+
+    background: rgba(71, 125, 17, 0.15);
 }
 
 .flower-img {
