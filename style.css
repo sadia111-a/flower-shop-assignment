@@ -10,6 +10,19 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* nav part starts here */
+.nav-list{
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 50px;
+   align-items: center;
+   padding: 50px;
+   font-size: large;
+   font-weight: 800;
+   background-color: grey;
+}
 
 /* banner part start here */
 .banner-container {
